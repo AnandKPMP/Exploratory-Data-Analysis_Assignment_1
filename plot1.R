@@ -1,6 +1,6 @@
 #plot1.R
 #Step-1 Read Data
-setwd("C:\\Users\\asubram1\\OneDrive\\Career\\Data Scientst\\4. Exploratory Data Analysis\\Assignment")
+#setwd("YOUR CUURENT WORKING DIRECTORY that the Assignment household_power_consumption.txt ")
 power_d <- read.csv2(".\\household_power_consumption.txt"
                         ,header = FALSE, sep = ";"
                         ,stringsAsFactors = FALSE
